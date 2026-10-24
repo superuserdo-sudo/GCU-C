@@ -1,0 +1,665 @@
+GCU COMMAND NAME GLOSSARY
+Version 0.2.0
+
+Each entry gives the GNU behavioral reference (where applicable), Gill expansion, practical purpose, and usage. The Gill names are project-defined. An expansion is a naming aid, not a technical limitation on the implementation.
+
+cowf
+  GNU/reference: cat
+  English expansion: Content Output and Write Files
+  Purpose: Concatenate files and write their contents to stdout.
+  Usage: cowf [-sa] [-num|-numb] [-she] [-T] [-v] [-squb] [FILE...]
+
+fcow
+  GNU/reference: tac
+  English expansion: File Contents in Opposite Way
+  Purpose: Write input records/lines in reverse order.
+  Usage: fcow [-bef] [-rex] [-s SEPARATOR] [FILE...]
+
+numl
+  GNU/reference: nl
+  English expansion: Number Lines
+  Purpose: Number lines, with configurable numbering of sections.
+  Usage: numl [OPTIONS] [FILE...]
+
+wfof
+  GNU/reference: od
+  English expansion: Write Files in Other Formats
+  Purpose: Display file data in selected numeric or character representations.
+  Usage: wfof [OPTIONS] [FILE...]
+
+b32
+  GNU/reference: base32
+  English expansion: Base-32 Encoder/Decoder
+  Purpose: Encode bytes as Base32 or decode Base32 input.
+  Usage: b32 [--decode] [FILE]
+
+b64
+  GNU/reference: base64
+  English expansion: Base-64 Encoder/Decoder
+  Purpose: Encode bytes as Base64 or decode Base64 input.
+  Usage: b64 [--decode] [FILE]
+
+bnc
+  GNU/reference: basenc
+  English expansion: Base Notation Converter
+  Purpose: Encode/decode using supported printable encodings.
+  Usage: bnc [--base32|--base64] [--decode] [FILE]
+
+rff
+  GNU/reference: fmt
+  English expansion: Reformat File Flow
+  Purpose: Reformat paragraphs to a target line width.
+  Usage: rff [-wid N] [FILE...]
+
+pag
+  GNU/reference: pr
+  English expansion: Page Arrangement Generator
+  Purpose: Paginate text or arrange it into columns.
+  Usage: pag [-len N] [-num] [FILE...]
+
+warp
+  GNU/reference: fold
+  English expansion: Width-Aware Row Processor
+  Purpose: Wrap long input lines to a specified width.
+  Usage: warp [-bytes|-chars] [-spacs] [-wid N] [FILE...]
+
+ftop
+  GNU/reference: head
+  English expansion: File Top Output
+  Purpose: Print the beginning of each file.
+  Usage: ftop [-n N] [FILE...]
+
+fend
+  GNU/reference: tail
+  English expansion: File End Display
+  Purpose: Print the end of each file; optionally follow appended data.
+  Usage: fend [-n N] [FILE...]
+
+fspl
+  GNU/reference: split
+  English expansion: File Splitter
+  Purpose: Split a file into smaller output files.
+  Usage: fspl -l N INPUT [PREFIX]
+
+cspat
+  GNU/reference: csplit
+  English expansion: Context Split by Pattern
+  Purpose: Split a file at locations selected by patterns.
+  Usage: cspat FILE REGEX [PREFIX]
+
+wcnt
+  GNU/reference: wc
+  English expansion: Word Count Tool
+  Purpose: Count lines, words, bytes, or characters.
+  Usage: wcnt [-lwmc] [FILE...]
+
+bsum
+  GNU/reference: sum
+  English expansion: Block Sum
+  Purpose: Produce a legacy checksum and block count.
+  Usage: bsum [FILE...]
+
+cksm
+  GNU/reference: cksum
+  English expansion: Checksum Calculator
+  Purpose: Calculate or verify checksums.
+  Usage: cksm [FILE...]
+
+md5c
+  GNU/reference: md5sum
+  English expansion: MD5 Checksum
+  Purpose: Calculate/verify MD5 digests for compatibility and non-security uses.
+  Usage: md5c [FILE...]
+
+b2ck
+  GNU/reference: b2sum
+  English expansion: BLAKE2 Checksum
+  Purpose: Calculate/verify BLAKE2 digests.
+  Usage: b2ck [FILE...]
+
+sh1c
+  GNU/reference: sha1sum
+  English expansion: SHA-1 Checksum
+  Purpose: Calculate/verify SHA-1 digests; legacy compatibility only.
+  Usage: sh1c [FILE...]
+
+sh224
+  GNU/reference: sha224sum
+  English expansion: SHA-224 Checksum
+  Purpose: Calculate/verify SHA-224 digests.
+  Usage: sh224 [FILE...]
+
+sh256
+  GNU/reference: sha256sum
+  English expansion: SHA-256 Checksum
+  Purpose: Calculate/verify SHA-256 digests.
+  Usage: sh256 [FILE...]
+
+sh384
+  GNU/reference: sha384sum
+  English expansion: SHA-384 Checksum
+  Purpose: Calculate/verify SHA-384 digests.
+  Usage: sh384 [FILE...]
+
+sh512
+  GNU/reference: sha512sum
+  English expansion: SHA-512 Checksum
+  Purpose: Calculate/verify SHA-512 digests.
+  Usage: sh512 [FILE...]
+
+ordf
+  GNU/reference: sort
+  English expansion: Order Formatter
+  Purpose: Sort lines according to selected ordering rules.
+  Usage: ordf [-r] [-u] [-f] [-n] [FILE...]
+
+shufx
+  GNU/reference: shuf
+  English expansion: Shuffle Utility
+  Purpose: Output lines in randomized order or select random items.
+  Usage: shufx [-n COUNT] [FILE]
+
+dupf
+  GNU/reference: uniq
+  English expansion: Duplicate Filter
+  Purpose: Report or suppress adjacent duplicate lines.
+  Usage: dupf [-c|-d|-u] [-i] [INPUT [OUTPUT]]
+
+lcom
+  GNU/reference: comm
+  English expansion: Line Comparison
+  Purpose: Compare two sorted files line by line.
+  Usage: lcom FILE1 FILE2
+
+dtop
+  GNU/reference: tsort
+  English expansion: Dependency Topological Order
+  Purpose: Topologically sort a list of dependency pairs.
+  Usage: dtop [FILE]
+
+ptix
+  GNU/reference: ptx
+  English expansion: Permuted Text Index
+  Purpose: Produce a permuted index from text.
+  Usage: ptix [FILE]
+
+fldx
+  GNU/reference: cut
+  English expansion: Field Extractor
+  Purpose: Select bytes, characters, or delimited fields from each line.
+  Usage: fldx [-d CHAR] [-f LIST|-c LIST] [-s] [FILE...]
+
+mrgc
+  GNU/reference: paste
+  English expansion: Merge Columns
+  Purpose: Merge corresponding lines from input files.
+  Usage: mrgc FILE...
+
+jkey
+  GNU/reference: join
+  English expansion: Join by Key
+  Purpose: Join two sorted files on a common field.
+  Usage: jkey FILE1 FILE2
+
+chrx
+  GNU/reference: tr
+  English expansion: Character Transformer
+  Purpose: Translate, delete, or squeeze character sets.
+  Usage: chrx [-d] [-s] [-c] SET1 [SET2]
+
+t2sp
+  GNU/reference: expand
+  English expansion: Tabs to Spaces
+  Purpose: Convert TAB characters to spaces.
+  Usage: t2sp [FILE...]
+
+s2tb
+  GNU/reference: unexpand
+  English expansion: Spaces to Tabs
+  Purpose: Convert spaces to TAB characters.
+  Usage: s2tb [FILE...]
+
+see
+  GNU/reference: ls
+  English expansion: Existing Gill command
+  Purpose: List directory contents.
+  Usage: see [-a] [-l] [-R] [FILE...]
+
+dir
+  GNU/reference: dir
+  English expansion: Existing Gill command
+  Purpose: Brief directory listing.
+  Usage: dir [FILE...]
+
+alodir
+  GNU/reference: vdir
+  English expansion: Existing Gill command
+  Purpose: Detailed directory listing.
+  Usage: alodir [FILE...]
+
+dclr
+  GNU/reference: dircolors
+  English expansion: Directory Color Rules
+  Purpose: Output/configure color rules used by compatible directory listings.
+  Usage: dclr [FILE]
+
+cop
+  GNU/reference: cp
+  English expansion: Existing Gill command
+  Purpose: Copy files and directories.
+  Usage: cop [-r] [-p] SOURCE... DEST
+
+dblk
+  GNU/reference: dd
+  English expansion: Data Block Copier
+  Purpose: Copy/convert data in configurable blocks.
+  Usage: dblk if=FILE of=FILE bs=N [count=N] [skip=N] [seek=N] [conv=notrunc,sync]
+
+instme
+  GNU/reference: install
+  English expansion: Existing Gill command
+  Purpose: Copy files and set permissions/ownership/mode as requested.
+  Usage: instme [-m MODE] SOURCE... DEST
+
+movef
+  GNU/reference: mv
+  English expansion: Move File
+  Purpose: Move or rename files and directories.
+  Usage: movef [-f|-n] SOURCE... DEST
+
+rom
+  GNU/reference: rm
+  English expansion: Existing Gill command
+  Purpose: Remove files or directories.
+  Usage: rom [-f] [-r|-R] FILE...
+
+wipf
+  GNU/reference: shred
+  English expansion: Write-over Integrity Pattern File
+  Purpose: Attempt to overwrite file contents before removal.
+  Usage: wipf [-n PASSES] [-z] [-u] FILE...
+
+hlnk
+  GNU/reference: link
+  English expansion: Hard Link Creator
+  Purpose: Create a hard link using link semantics.
+  Usage: hlnk EXISTING NEWLINK
+
+lnkf
+  GNU/reference: ln
+  English expansion: Link File
+  Purpose: Create hard or symbolic links.
+  Usage: lnkf TARGET LINK
+
+mdir
+  GNU/reference: mkdir
+  English expansion: Existing Gill command
+  Purpose: Create directories.
+  Usage: mdir [-p] [-m MODE] DIRECTORY...
+
+mkq
+  GNU/reference: mkfifo
+  English expansion: Make Queue
+  Purpose: Create named pipes (FIFOs).
+  Usage: mkq NAME...
+
+nodef
+  GNU/reference: mknod
+  English expansion: Node File Creator
+  Purpose: Create special device nodes when permissions allow.
+  Usage: nodef NAME TYPE [MAJOR MINOR]
+
+rlnk
+  GNU/reference: readlink
+  English expansion: Read Link
+  Purpose: Print a symbolic link target or resolve a path.
+  Usage: rlnk FILE...
+
+cpath
+  GNU/reference: realpath
+  English expansion: Canonical Path
+  Purpose: Resolve a path to a canonical absolute path.
+  Usage: cpath PATH...
+
+rdem
+  GNU/reference: rmdir
+  English expansion: Remove Empty Directory
+  Purpose: Remove empty directories.
+  Usage: rdem DIRECTORY...
+
+ulnk
+  GNU/reference: unlink
+  English expansion: Unlink File
+  Purpose: Remove one directory entry.
+  Usage: ulnk FILE
+
+ownf
+  GNU/reference: chown
+  English expansion: Owner Modifier
+  Purpose: Change file owner and/or group.
+  Usage: ownf OWNER[:GROUP] FILE...
+
+grpown
+  GNU/reference: chgrp
+  English expansion: Group Ownership Modifier
+  Purpose: Change file group ownership.
+  Usage: grpown GROUP FILE...
+
+permf
+  GNU/reference: chmod
+  English expansion: Permission Formatter
+  Purpose: Change file access permissions.
+  Usage: permf MODE FILE...
+
+punch
+  GNU/reference: touch
+  English expansion: Existing Gill command
+  Purpose: Create an empty file or update timestamps.
+  Usage: punch [-c] FILE...
+
+dfree
+  GNU/reference: df
+  English expansion: Disk Free
+  Purpose: Report filesystem space usage.
+  Usage: dfree [-h|-k|-m] [PATH...]
+
+dusage
+  GNU/reference: du
+  English expansion: Disk Usage
+  Purpose: Estimate space used by files/directories.
+  Usage: dusage [-s] [-h] [-a] [-d DEPTH] [PATH...]
+
+fstat
+  GNU/reference: stat
+  English expansion: File Status
+  Purpose: Display file metadata.
+  Usage: fstat FILE...
+
+fsync
+  GNU/reference: sync
+  English expansion: Filesystem Synchronizer
+  Purpose: Flush filesystem buffers to storage.
+  Usage: fsync [FILE...]
+
+truncf
+  GNU/reference: truncate
+  English expansion: Truncate File
+  Purpose: Shrink or extend a file to a specified size.
+  Usage: truncf -s SIZE FILE
+
+type
+  GNU/reference: echo
+  English expansion: Existing Gill command
+  Purpose: Print arguments separated by spaces and end with a newline.
+  Usage: type [-n] [-e|-E] [TEXT...]
+
+fprn
+  GNU/reference: printf
+  English expansion: Formatted Print
+  Purpose: Print formatted text/data.
+  Usage: fprn FORMAT [ARG...]
+
+no
+  GNU/reference: yes
+  English expansion: Existing Gill command
+  Purpose: Repeatedly print a string until interrupted.
+  Usage: no [STRING...]
+
+true
+  GNU/reference: true
+  English expansion: True Status
+  Purpose: Exit successfully without producing normal output.
+  Usage: true
+
+false
+  GNU/reference: false
+  English expansion: False Status
+  Purpose: Exit unsuccessfully without producing normal output.
+  Usage: false
+
+testmp
+  GNU/reference: [ / test
+  English expansion: Existing Gill command
+  Purpose: Conditional test. The standalone `[` command requires a closing `]`;
+  Usage: testmp EXPRESSION
+
+exval
+  GNU/reference: expr
+  English expansion: Expression Evaluator
+  Purpose: Evaluate simple expressions.
+  Usage: exval INTEGER OP INTEGER
+
+mout
+  GNU/reference: tee
+  English expansion: Multiple Output
+  Purpose: Copy stdin to stdout and one or more files.
+  Usage: mout [-a] [FILE...]
+
+mbn
+  GNU/reference: basename
+  English expansion: Existing Gill command
+  Purpose: Remove directory prefixes from a path.
+  Usage: mbn NAME [SUFFIX]
+
+mdn
+  GNU/reference: dirname
+  English expansion: Existing Gill command
+  Purpose: Remove the final component from a path.
+  Usage: mdn NAME
+
+pchk
+  GNU/reference: pathchk
+  English expansion: Path Checker
+  Purpose: Validate pathnames for portability or filesystem constraints.
+  Usage: pchk [-p] NAME...
+
+jroot
+  GNU/reference: chroot
+  English expansion: Jail Root
+  Purpose: Run a command with a different root directory.
+  Usage: jroot ROOT COMMAND [ARG...]
+
+envx
+  GNU/reference: env
+  English expansion: Environment Executor
+  Purpose: Display/modify environment variables and run a command.
+  Usage: envx [NAME=VALUE...] [COMMAND [ARG...]]
+
+prio
+  GNU/reference: nice
+  English expansion: Process Priority
+  Purpose: Run a command with a selected scheduling niceness.
+  Usage: prio [-n ADJUSTMENT] COMMAND [ARG...]
+
+stay
+  GNU/reference: nohup
+  English expansion: Stay Running
+  Purpose: Run a command immune to hangup signals.
+  Usage: stay COMMAND [ARG...]
+
+wai
+  GNU/reference: pwd
+  English expansion: Existing Gill command
+  Purpose: Print the current working directory.
+  Usage: wai
+
+ttycfg
+  GNU/reference: stty
+  English expansion: TTY Configuration
+  Purpose: Read or change terminal line settings.
+  Usage: ttycfg [SETTING...]
+
+bufctl
+  GNU/reference: stdbuf
+  English expansion: Buffer Control
+  Purpose: Run a command with modified standard stream buffering.
+  Usage: bufctl MODE COMMAND [ARG...]
+
+idme
+  GNU/reference: id
+  English expansion: Existing Gill command
+  Purpose: Print user and group IDs.
+  Usage: idme [-u|-g|-G] [-n] [-r] [USER]
+
+grps
+  GNU/reference: groups
+  English expansion: Existing Gill command
+  Purpose: Print group memberships.
+  Usage: grps [USER]
+
+wimlog
+  GNU/reference: logname
+  English expansion: Existing Gill command
+  Purpose: Print the login name.
+  Usage: wimlog
+
+usrlite
+  GNU/reference: pinky
+  English expansion: User Lookup Lite
+  Purpose: Display brief user information.
+  Usage: usrlite [USER...]
+
+usrs
+  GNU/reference: users
+  English expansion: Existing Gill command
+  Purpose: Print users currently logged in.
+  Usage: usrs
+
+huh
+  GNU/reference: who
+  English expansion: Existing Gill command
+  Purpose: Display users logged in.
+  Usage: huh
+
+wami
+  GNU/reference: whoami
+  English expansion: Existing Gill command
+  Purpose: Print effective username.
+  Usage: wami
+
+wimarch
+  GNU/reference: arch
+  English expansion: Existing Gill command
+  Purpose: Print machine hardware architecture.
+  Usage: wimarch
+
+wit
+  GNU/reference: date
+  English expansion: Existing Gill command
+  Purpose: Display or set date/time according to supported options.
+  Usage: wit [-u] [+FORMAT]
+
+hidn
+  GNU/reference: hostid
+  English expansion: Host Identifier
+  Purpose: Print the host identifier.
+  Usage: hidn
+
+wimh
+  GNU/reference: hostname
+  English expansion: Existing Gill command
+  Purpose: Display or set the system hostname.
+  Usage: wimh [HOSTNAME]
+
+ncore
+  GNU/reference: nproc
+  English expansion: Number of Cores
+  Purpose: Print the number of processing units available.
+  Usage: ncore [-a]
+
+mos
+  GNU/reference: uname
+  English expansion: Existing Gill command
+  Purpose: Print system/kernel information.
+  Usage: mos [OPTIONS]
+
+upsys
+  GNU/reference: uptime
+  English expansion: System Uptime
+  Purpose: Print how long the system has been running.
+  Usage: upsys
+
+wimt
+  GNU/reference: tty
+  English expansion: Existing Gill command
+  Purpose: Print the terminal device connected to stdin.
+  Usage: wimt [-s]
+
+ctxset
+  GNU/reference: chcon
+  English expansion: Context Setter
+  Purpose: Change SELinux security context.
+  Usage: ctxset [OPTIONS] CONTEXT FILE...
+
+ctxrun
+  GNU/reference: runcon
+  English expansion: Context Runner
+  Purpose: Run a command with a specified SELinux context.
+  Usage: ctxrun [OPTIONS] CONTEXT COMMAND [ARG...]
+
+tmo
+  GNU/reference: timeout
+  English expansion: Existing Gill command
+  Purpose: Run a command with a time limit.
+  Usage: tmo DURATION COMMAND [ARG...]
+
+sigsend
+  GNU/reference: kill
+  English expansion: Signal Sender
+  Purpose: Send a signal to a process.
+  Usage: sigsend [-SIGNAL] PID...
+
+mmsleep
+  GNU/reference: sleep
+  English expansion: Existing Gill command
+  Purpose: Pause for a specified duration.
+  Usage: mmsleep NUMBER[SUFFIX]...
+
+factr
+  GNU/reference: factor
+  English expansion: Factor Calculator
+  Purpose: Print prime factors of integers.
+  Usage: factr NUMBER...
+
+ftgn
+  GNU/reference: numfmt
+  English expansion: Existing Gill command
+  Purpose: Convert or format numbers using scale and unit options.
+  Usage: ftgn [--to=si|iec|iec-i] NUMBER...
+
+seqn
+  GNU/reference: seq
+  English expansion: Sequence Number Generator
+  Purpose: Print a numeric sequence.
+  Usage: seqn [-s SEP] [-f FORMAT] LAST | FIRST LAST | FIRST STEP LAST
+
+tmpf
+  GNU/reference: mktemp
+  English expansion: Temporary File Creator
+  Purpose: Safely create a temporary file or directory.
+  Usage: tmpf [-d] [TEMPLATE]
+
+envshow
+  GNU/reference: printenv
+  English expansion: Environment Display
+  Purpose: Print environment variables.
+  Usage: envshow [VARIABLE...]
+
+pmad
+  GNU/reference: cd
+  English expansion: Project-defined name (expansion not specified)
+  Purpose: Shell builtin required to change the parent shell working directory.
+  Usage: pmad
+
+dumpme
+  GNU/reference: wfof
+  English expansion: Write Files in Other Formats
+  Purpose: Gill alias for byte inspection.
+  Usage: dumpme [OPTIONS] [FILE...]
+
+yes
+  GNU/reference: yes
+  English expansion: Negative Response Repeater
+  Purpose: Repeatedly print the Gill negative response.
+  Usage: yes [STRING...]
+
