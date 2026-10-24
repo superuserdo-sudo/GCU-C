@@ -1,0 +1,257 @@
+Gill General Source Code and Software Property License (GSPL)
+
+Version 1.1
+
+Copyright (c) 2026 Rayan Abdelli
+
+All rights reserved, subject to the permissions expressly granted by this License.
+
+Preamble — Purpose and Principles
+
+The Gill General Source Code and Software Property License (GSPL) establishes a general framework for the use, modification, reproduction, and distribution of software and documentation.
+
+This License is intended to permit both open-source and closed-source development, commercial and non-commercial use, private modification, and independent distribution, subject to the conditions expressly stated herein.
+
+This License does not require a particular development philosophy, publication model, business model, or relationship with the original author.
+
+1. Definitions
+
+For the purposes of this License:
+
+1.1. "Licensor" means the copyright holder or any person or legal entity authorized to grant the rights provided by this License.
+
+1.2. "You" means any individual or legal entity exercising rights granted under this License.
+
+1.3. "Software" means source code, object code, executable files, libraries, scripts, configuration files, and other software materials expressly distributed under this License.
+
+1.4. "Documentation" means manuals, technical specifications, reference materials, tutorials, explanatory texts, diagrams, and other documentation expressly distributed under this License.
+
+1.5. "Licensed Material" means Software, Documentation, or both, as identified by a license notice accompanying the relevant material.
+
+1.6. "Source Form" means the form of a work preferred for making modifications, including source code, editable document files, configuration files, and editable diagram files.
+
+1.7. "Object Form" means a form resulting from compilation, conversion, rendering, or another transformation, including executable binaries, rendered documents, and exported diagrams.
+
+1.8. "Modified Material" means Licensed Material that has been changed, adapted, translated, annotated, rearranged, or otherwise modified.
+
+1.9. "Distribution" means providing, transferring, publishing, or otherwise making a copy of Licensed Material available to another party.
+
+1.10. "Official Material" means material expressly identified by the Licensor or the relevant project maintainer as an official release or publication.
+
+1.11. "Third-Party Material" means any material whose rights are held by someone other than the Licensor and that is not independently licensed under this License by its rights holder.
+
+2. Grant of Copyright Permissions
+
+Subject to this License, the Licensor grants You a worldwide, non-exclusive, royalty-free copyright license, for the duration of the applicable copyright, to:
+
+a. Use and execute the Software for any lawful purpose.
+
+b. Read, inspect, study, and analyze the Licensed Material.
+
+c. Reproduce and make copies of the Licensed Material.
+
+d. Modify, adapt, translate, annotate, and create derivative works from the Licensed Material.
+
+e. Distribute the original or Modified Material in Source Form or Object Form.
+
+f. Incorporate the Licensed Material into other software, products, systems, libraries, services, and publications.
+
+g. Use and distribute the Licensed Material in open-source, source-available, or closed-source projects.
+
+h. Exercise these permissions for commercial or non-commercial purposes.
+
+These permissions are subject to the express conditions of this License and do not transfer ownership of the original copyright.
+
+3. Source-Code and Distribution Freedom
+
+You are not required by this License to:
+
+a. Publish or disclose Your source code.
+
+b. Publish Your private modifications.
+
+c. Distribute source code alongside compiled binaries.
+
+d. License Your independent contributions under this License.
+
+e. Release a larger work under an open-source license.
+
+f. Contribute changes, improvements, or bug fixes to the original project.
+
+g. Publicly disclose Your use of the Licensed Material.
+
+h. Promote, advertise, or endorse the Licensor or the original project.
+
+These freedoms do not remove obligations imposed by applicable third-party licenses or applicable law.
+
+4. Conditions of Redistribution
+
+When You distribute Licensed Material or Modified Material, You must:
+
+a. Include a copy of this License or a clear reference to its complete, applicable text.
+
+b. Preserve existing copyright notices associated with the material being redistributed.
+
+c. Preserve existing license notices and applicable warranty disclaimers and limitations of liability.
+
+d. Clearly identify material changes when redistributing modified Software files or Modified Documentation.
+
+e. Avoid presenting Modified Material as an unchanged copy of the original.
+
+You may add copyright notices for Your original contributions. You may also distribute a larger work under separate terms, provided that those terms do not remove the permissions already granted for the original Licensed Material or misrepresent its licensing status.
+
+5. Documentation-Specific Permissions
+
+Documentation expressly licensed under GSPL may be copied, reproduced, printed, translated, adapted, annotated, reformatted, converted into other media, and distributed for commercial or non-commercial purposes.
+
+You may use the Documentation in connection with open-source or closed-source products, services, training materials, technical publications, and other lawful projects.
+
+Unless a separate notice states otherwise, Documentation distributed under GSPL is governed by this License.
+
+You are not required to publish editable document files, translation files, original diagram files, or other editable documentation sources when distributing rendered or modified Documentation.
+
+These permissions apply only to rights held by the Licensor and do not automatically cover third-party images, trademarks, photographs, quotations, or other independently licensed content included in the Documentation.
+
+6. Integrity and Identification of Documentation
+
+When You distribute Modified Documentation, You must:
+
+a. Mark the material as modified, adapted, translated, or otherwise changed.
+
+b. Identify Your changes in a reasonable manner, such as by a revision note, a change history, or a statement accompanying the modified document.
+
+c. Not falsely represent Modified Documentation as an unchanged Official Material publication.
+
+d. Not falsely claim that the Licensor reviewed, approved, certified, or endorsed Your changes.
+
+e. Preserve existing copyright and license notices that apply to the material You redistribute.
+
+A modification notice does not require the publication of Your identity, private contact information, or the full history of Your work.
+
+Nothing in this section prohibits accurate quotations, summaries, translations, criticism, or references to Official Material.
+
+7. Official Status and Project Identity
+
+This License does not grant permission to use trademarks, logos, service marks, or other branding owned by the Licensor, except where such use is independently permitted by law or expressly authorized.
+
+You may accurately identify the origin of Licensed Material and describe its relationship to the original project.
+
+You may not falsely imply that Your modified Software, Documentation, product, or project is an official release, is maintained by the original project, or has received its approval.
+
+This section does not grant the Licensor ownership of independent names, marks, or contributions created by You.
+
+8. Ownership and Independent Contributions
+
+The Licensor retains ownership of the original intellectual-property rights in the Licensed Material, subject to the permissions granted by this License.
+
+You retain the rights You hold in Your original contributions, subject to the rights necessary to use, reproduce, distribute, and modify any underlying Licensed Material incorporated into those contributions.
+
+This License does not transfer ownership of the original Software or Documentation to You.
+
+No rights are granted in Third-Party Material beyond those granted by its applicable rights holders.
+
+9. Patent Permission
+
+To the extent the Licensor has the legal authority to grant such rights, the Licensor grants You a worldwide, non-exclusive, royalty-free patent license to make, use, sell, offer for sale, import, and otherwise distribute the Licensed Material.
+
+This permission applies only to patent claims licensable by the Licensor that are necessarily infringed by the Licensed Material as provided by the Licensor or by a contribution made by the Licensor.
+
+It does not extend to claims infringed solely by Your modifications or by combinations with materials not supplied by the Licensor.
+
+If You initiate patent litigation alleging that the Licensed Material itself infringes a patent, the patent permissions granted to You under this section terminate on the date the litigation is filed, to the extent permitted by applicable law.
+
+10. Third-Party Material and Separate Licenses
+
+This License does not override or replace the license terms applicable to Third-Party Material.
+
+If the Licensed Material includes third-party libraries, code, fonts, images, diagrams, documentation, or other content, You must comply with the terms applicable to those components when required.
+
+A separate license notice attached to a specific component takes precedence over GSPL for that component to the extent the notices are inconsistent and the separate license is validly applicable.
+
+The inclusion of third-party material does not automatically make the entire project subject to that material's license. The legal effect depends on the applicable license terms and the way the materials are combined or distributed.
+
+11. No Obligation to Provide Services or Updates
+
+The Licensor is not required by this License to provide technical support, maintenance, updates, security fixes, hosting, documentation revisions, or future versions.
+
+The Licensor may independently choose to provide any of these services under separate terms.
+
+A decision to discontinue a project or stop publishing updates does not, by itself, revoke permissions previously granted under this License.
+
+12. Warranty Disclaimer
+
+THE LICENSED MATERIAL IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, SECURE, AVAILABLE WITHOUT INTERRUPTION, OR SUITABLE FOR ANY PARTICULAR PURPOSE.
+
+THE LICENSOR DOES NOT WARRANT THAT THE DOCUMENTATION IS COMPLETE, ACCURATE, CURRENT, OR SUITABLE FOR EVERY USE.
+
+YOU ARE RESPONSIBLE FOR EVALUATING THE SUITABILITY OF THE LICENSED MATERIAL FOR YOUR OWN PURPOSES.
+
+13. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE FOR CLAIMS, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE LICENSED MATERIAL OR THE USE OR OTHER DEALINGS IN THE LICENSED MATERIAL.
+
+THIS INCLUDES DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, AND CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF DATA, PROFITS, BUSINESS, OR SYSTEM AVAILABILITY, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+NOTHING IN THIS LICENSE EXCLUDES OR LIMITS LIABILITY WHERE SUCH EXCLUSION OR LIMITATION IS PROHIBITED BY APPLICABLE LAW.
+
+14. Termination and Reinstatement
+
+Your permissions under this License terminate automatically if You materially violate its conditions.
+
+If the violation is capable of remedy and You correct it within thirty (30) days after becoming aware of it, Your permissions are reinstated provisionally and become permanently reinstated unless the Licensor expressly and finally terminates them for that violation, to the extent permitted by applicable law.
+
+The Licensor may also restore permissions after a violation has been corrected.
+
+Termination does not automatically terminate the permissions of recipients who received the Licensed Material in compliance with this License and who continue to comply with its terms.
+
+Provisions that by their nature should survive termination remain effective to the extent necessary to give them effect.
+
+15. No Additional Obligations
+
+No provision of this License requires You to adopt the Licensor's development philosophy, organizational structure, project policies, or business model.
+
+No provision requires You to publish independent works, contribute to the original project, promote the Licensor, disclose private development activity, or adopt a particular source-availability model.
+
+Obligations arise under this License only from its express terms, subject to applicable law and valid third-party rights.
+
+16. Severability
+
+If any provision of this License is found invalid or unenforceable, it shall be modified only to the extent necessary to make it enforceable where permitted by law.
+
+If such modification is not possible, the affected provision shall be severed, and the remaining provisions shall continue in effect.
+
+17. No Waiver
+
+Failure by the Licensor to enforce a provision of this License on one occasion does not automatically waive the right to enforce that provision on another occasion.
+
+Any waiver must be valid under applicable law.
+
+18. Interpretation and Applicable Law
+
+This License shall be interpreted in accordance with applicable law.
+
+No governing jurisdiction is designated by this text. Nothing in this section prevents the application of mandatory legal rules or the jurisdiction of a court that has authority over a dispute.
+
+The headings are included for convenience and do not determine the interpretation of the provisions.
+
+19. License Identification and Application
+
+The official name of this License is:
+
+Gill General Source Code and Software Property License
+
+The official abbreviation is:
+
+GSPL
+
+The version identifier is:
+
+GSPL-1.1
+
+A project intending to apply this License should include the complete license text in a file named "LICENSE" and identify the covered files or materials through an accompanying copyright and license notice.
+
+Unless expressly stated otherwise, GSPL applies only to material for which the Licensor has authority to grant the permissions described herein.
+
+END OF LICENSE
